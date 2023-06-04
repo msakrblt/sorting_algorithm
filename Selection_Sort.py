@@ -6,4 +6,4 @@ def sort(list):
             if list[j]<list[min_index]:
                 min_index=j
         list[i], list[min_index] = list[min_index], list[i]
-        print(f'{i+1}.adım: {list}')
+        print(f'Selection Sort - {i+1}.adım: {list}')
